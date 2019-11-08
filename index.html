@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7a954a8238.js" crossorigin="anonymous"></script>
+    <!--Lightbox-->
+    <link rel="stylesheet" href="css/simplelightbox.min.css"/>
+    <!--Personal style.css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <title>Tiger Sanctuary</title>
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Khan Santuary</h1>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Showcase -->
+<section class="section-a">
+  <div class="container">
+    <div>
+      <h1>Our magestic creatures of the jungle</h1>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna lectus, rhoncus ornare suscipit sit amet, pharetra vitae elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lobortis nisl id nunc tincidunt, nec pretium lorem ornare. </p>
+          <a href="#" class="btn">Read More</a>
+    </div>
+    <img src="./img/showcase.png" alt="showcase">
+  </div>
+</section>
+
+<!--overlay-->
+<section class="section-b">
+  <div class="overlay">
+    <div class="section-b-inner">
+      <h2>Join Our Cause</h2>
+      <h3>Protect the ever declining population of tigers today</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna lectus, rhoncus ornare suscipit sit amet, pharetra vitae elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lobortis nisl id nunc tincidunt, nec pretium lorem ornare. </p>
+    </div>
+  </div>
+</section>
+
+<!--Gallery-->
+<section class="section-c">
+  <div class="gallery">
+    <a href="./img/drinking.jpg"><img src="./img/drinking.jpg" alt="drinking_tiger"></a>
+    <a href="./img/resting.jpg"><img src="./img/resting.jpg" alt="resting"></a>
+    <a href="./img/gallery1.jpg"><img src="./img/gallery1.jpg" alt="gallery1"></a>
+    <a href="./img/gallery3.jpg"><img src="./img/gallery3.jpg" alt="gallery3"></a>
+    <a href="./img/gallery2.jpg"><img src="./img/gallery2.jpg" alt="gallery2"></a>
+    <!--<a href="./img/playing.jpg"><img src="./img/playing.jpg" alt="playing"></a>-->
+  </div>
+</section>
+
+<!--Footer-->
+<footer class="section-footer">
+  <div class="container">
+    <div>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <a href="https://twitter.com">
+      <i class="fab fa-twitter fa-2x"></i></a>
+      <a href="https://facebook.com">
+        <i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://youtube.com">
+          <i class="fab fa-youtube fa-2x"></i></a>
+    </div>
+
+    <div>
+      <h3>Company Info</h3>
+      <ul>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Location</a>
+          </li>
+          <li>
+              <a href="#">Join the Team</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Blog Posts</h3>
+      <ul>
+        <li>
+            <a href="#">Lorem Ipsum</a>
+        </li>
+        <li>
+            <a href="#">Lorem Ipsum</a>
+        </li>
+        <li>
+            <a href="#">Lorem Ipsum</a>
+        </li>
+        <li>
+            <a href="#">Lorem Ipsum</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <!--Jquery-->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <!--Simple light box JS-->
+  <script src="js/simple-lightbox.min.js"></script>
+  <script>
+   $(function(){
+     const $gallery = $('.gallery a').simpleLightbox(); 
+   })
+  </script>
+</body>
+</html>

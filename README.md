@@ -17,7 +17,7 @@ One landing page consisting of:
 - footer
 
 ## CDNs
--Google Fonts
--Font Awesome
--Lightbox
--JQuery
+- Google Fonts
+- Font Awesome
+- Lightbox
+- JQuery

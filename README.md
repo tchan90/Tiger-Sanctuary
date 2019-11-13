@@ -4,7 +4,7 @@ Khan Sanctuary is a mock static website made to practice implementing CSS grids 
 ## Text and Visuals
 Lorem ipsum text is used. Images are from Unsplashed.com.
 
-## Text Stack
+## Tech Stack
 - HTML5
 - CSS3
   
